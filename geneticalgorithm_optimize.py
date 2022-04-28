@@ -19,7 +19,7 @@ algorithm_param = {'max_num_iteration': 100,\
                    'max_iteration_without_improv':None}  
     
 # Define your optimization model:
-def f(X):
+def MyOptProb(X):
     y = 0+X[1]*(1.29-0)
     x = np.round(0+X[0]*(2-0))
     g1 = 5/10 * x + 3/10 * y - 1
@@ -44,7 +44,7 @@ def Results(obj, variables):
     print("obj:",2*x+5*y)
 
 # Model and solve the problem:
-model=ga(function=f,dimension=2,variable_type_mixed=vartype,variable_boundaries=varbound,algorithm_parameters=algorithm_param)
+model=ga(function=MyOptProb,dimension=2,variable_type_mixed=vartype,variable_boundaries=varbound,algorithm_parameters=algorithm_param)
 model.run()
 
 # Display results:    
