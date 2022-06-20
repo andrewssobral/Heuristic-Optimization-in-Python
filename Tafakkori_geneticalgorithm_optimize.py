@@ -46,8 +46,8 @@ for s in S:
   
     #Mutation
     aa = a.copy()
-    r = {t: np.random.rand() for t in T}
-    a = {d: {(t,i): 1 if aa[d][(t,i)]==0 and r[t]<Mu else 0 if r[t]<Mu else aa[d][(t,i)] for t,i in it.product(T,I[d])} for d in D}
+    r = {d: {(t,i): np.random.rand() for t,i in it.product(T,I[d])} for d in D}
+    a = {d: {(t,i): 1 if aa[d][(t,i)]==0 and r[d][(t,i)]<Mu else 0 if r[d][(t,i)]<Mu else aa[d][(t,i)] for t,i in it.product(T,I[d])} for d in D}
     
     objval = max(list(g.values()))
     idx    = argmax(list(g.values()))
@@ -66,7 +66,7 @@ def plot_landscape():
     x = np.linspace(-3, 12.1, 30)
     y = np.linspace(4.1, 5.8, 30)
     X, Y = np.meshgrid(x, y)
-    Z = f(X, Y)
+    Z = obj(X, Y)
     plt.figure(dpi=1200)
     ax = plt.axes(projection='3d')
     ax.set_title('3D Landscape',fontsize = 14)
