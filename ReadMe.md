@@ -1,5 +1,7 @@
 ![Heuristic Optimization in Python](images/github.png)
 
+![](https://img.shields.io/github/stars/ktafakkori/Heuristic-Optimization-in-Python?style=social)
+![](https://img.shields.io/github/languages/code-size/ktafakkori/Heuristic-Optimization-in-Python?style=social)
 
 # 🐍Introduction
 
