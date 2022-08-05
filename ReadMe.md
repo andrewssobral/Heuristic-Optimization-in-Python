@@ -1,4 +1,4 @@
-[![Heuristic Optimization in Python](https://github.com/ktafakkori/Heuristic-Optimization-in-Python/images/github.png)]
+![Heuristic Optimization in Python](https://github.com/ktafakkori/Heuristic-Optimization-in-Python/images/github.png)
 
 # 🐍Introduction
 
