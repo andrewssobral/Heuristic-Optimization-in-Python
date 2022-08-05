@@ -7,7 +7,7 @@
 
 This repository contains original code samples of heuristic optimization or artificially intelligent algorithms and packages developed and maintained by Keivan Tafakkori.
 
-What is unique about the designed algorithms is that they have been developed, keeping in mind the fact that Python is a loop-sensitive algorithm. Therefore, these codes can be much more computationally efficient while being applied to an optimization problem. On the other hand, the goal is to prepare a rapid prototype of such algorithms and promote their usage in, mainly but not limited to, industrial engineering (IE), optimization and operations research (OR), computer science (CS), data science (DS), machine learning (ML) and simulation (SM) fields.
+What is unique about the designed algorithms is that they have been developed, keeping in mind the fact that Python is a loop-sensitive programming language. Therefore, these codes can be much more computationally efficient while being applied to an optimization problem. On the other hand, the goal is to prepare a rapid prototype of such algorithms and promote their usage in, mainly but not limited to, industrial engineering (IE), optimization and operations research (OR), computer science (CS), data science (DS), machine learning (ML) and simulation (SM) fields.
 
 Besides, some heuristic optimization packages are introduced which apply heuristic optimization algorithms right out of the box, and an example for using them is included.
 
