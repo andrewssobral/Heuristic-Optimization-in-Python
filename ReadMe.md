@@ -44,7 +44,7 @@ Hence, it is kindly requested to support this work by giving a ⭐ to the reposi
 https://ktafakkori.github.io 
 
 # 📱Contact
-You can find me on [Twitter][1], or on [Linedin][2].
+You can find me on [Twitter][1], or on [Linkedin][2].
 
 [1]: https://twitter.com/ktafakkori
 [2]: https://www.linkedin.com/in/keivan-tafakkori/
