@@ -37,7 +37,7 @@ This repository will be more and more complete over time.
 
 Hence, it is kindly requested to support this work by giving a ⭐ to the repository to make it available for a broad range of audiences who are interested in using heuristic optimization techniques in the Python programming language.
 
-# 💫 Stars
+# 💫 Supporters
 [![Stars given](https://reporoster.com/stars/dark/ktafakkori/Heuristic-Optimization-in-Python)](https://github.com/ktafakkori/Heuristic-Optimization-in-Python/stargazers)
 
 # 🌐 Website
