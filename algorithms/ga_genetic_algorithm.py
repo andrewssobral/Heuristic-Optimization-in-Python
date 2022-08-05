@@ -1,5 +1,3 @@
-# PART 1
-
 import numpy as np
 import itertools as it
 
@@ -56,30 +54,5 @@ for s in S:
         if objval>best[s-1]: 
             best[s] = objval
             x_best=[x[0][idx],x[1][idx]]
-        else: best[s] = best[s-1]       
-          
-# PART 2
+        else: best[s] = best[s-1]
 
-import matplotlib.pyplot as plt
-
-def plot_landscape():
-    x = np.linspace(-3, 12.1, 30)
-    y = np.linspace(4.1, 5.8, 30)
-    X, Y = np.meshgrid(x, y)
-    Z = obj(X, Y)
-    plt.figure(dpi=1200)
-    ax = plt.axes(projection='3d')
-    ax.set_title('3D Landscape',fontsize = 14)
-    ax.plot_surface(X, Y, Z, rstride=1, cstride=1,cmap='viridis',edgecolor='none')
-
-def plot_convergence():
-    plt.figure(dpi=1200)
-    plt.plot(list(S),list(best.values()))
-
-def report_solution():
-    print('Objective value =', best[len(S)-1])
-    print(x_best)
-
-plot_landscape()
-plot_convergence()     
-report_solution()
