@@ -1,6 +1,6 @@
-pkg_list = ['pip',
+pkgs = ['pip',
 		'geneticalgorithm',
-            'pyswarms']
+        'pyswarms']
 
 import pip
 
@@ -12,5 +12,5 @@ def install(package):
         pip._internal.main(['install', package])
         pip._internal.main(['install', '--upgrade', package])
      
-for i in pkg_list:
-	install(i)
+for pkg in pkgs:
+	install(pkg)
